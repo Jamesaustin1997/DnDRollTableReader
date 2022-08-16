@@ -1,0 +1,150 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Sylvan.Data.Csv/1.1.16": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Sylvan.Data.Csv.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Sylvan.Data.Csv.dll": {}
+        }
+      },
+      "Sylvan.Data.Excel/0.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Sylvan.Data.Excel.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Sylvan.Data.Excel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sylvan.Data.Csv/1.1.16": {
+      "sha512": "vgp1Lum8qjfvlYpXCsgBoVLPDx4hqYO1cCwEX+LRmPCZPsFEc969tZvSBE78or/ZfYc4gAvV/r1DmIDb3lnrVA==",
+      "type": "package",
+      "path": "sylvan.data.csv/1.1.16",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Sylvan.png",
+        "lib/net6.0/Sylvan.Data.Csv.dll",
+        "lib/net6.0/Sylvan.Data.Csv.xml",
+        "lib/netcoreapp3.0/Sylvan.Data.Csv.dll",
+        "lib/netcoreapp3.0/Sylvan.Data.Csv.xml",
+        "lib/netstandard2.0/Sylvan.Data.Csv.dll",
+        "lib/netstandard2.0/Sylvan.Data.Csv.xml",
+        "lib/netstandard2.1/Sylvan.Data.Csv.dll",
+        "lib/netstandard2.1/Sylvan.Data.Csv.xml",
+        "license.txt",
+        "readme.md",
+        "sylvan.data.csv.1.1.16.nupkg.sha512",
+        "sylvan.data.csv.nuspec"
+      ]
+    },
+    "Sylvan.Data.Excel/0.3.0": {
+      "sha512": "l0futqrLfc/K0MVfpz/bgVG5vec4u6wmbfL6awiu2qVF97E6RMRJ64Q3orCQ7msE3EFfY5FVwJ3X6yWqab7Fug==",
+      "type": "package",
+      "path": "sylvan.data.excel/0.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Sylvan.png",
+        "lib/netstandard2.0/Sylvan.Data.Excel.dll",
+        "lib/netstandard2.0/Sylvan.Data.Excel.xml",
+        "lib/netstandard2.1/Sylvan.Data.Excel.dll",
+        "lib/netstandard2.1/Sylvan.Data.Excel.xml",
+        "license.txt",
+        "readme.md",
+        "sylvan.data.excel.0.3.0.nupkg.sha512",
+        "sylvan.data.excel.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Sylvan.Data.Csv >= 1.1.16",
+      "Sylvan.Data.Excel >= 0.3.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\james\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Source\\DnDRollTable\\DnDRollTableReader\\DndRollTableApp.csproj",
+      "projectName": "DndRollTableApp",
+      "projectPath": "E:\\Source\\DnDRollTable\\DnDRollTableReader\\DndRollTableApp.csproj",
+      "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
+      "outputPath": "E:\\Source\\DnDRollTable\\DnDRollTableReader\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\james\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Sylvan.Data.Csv": {
+            "target": "Package",
+            "version": "[1.1.16, )"
+          },
+          "Sylvan.Data.Excel": {
+            "target": "Package",
+            "version": "[0.3.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
